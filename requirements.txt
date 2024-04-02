@@ -1,2 +1,3 @@
-requests 
-moviepy
+requests~=2.31.0
+moviepy~=1.0.3
+tqdm~=4.66.2

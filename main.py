@@ -3,8 +3,6 @@ import re
 import requests
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 from tqdm import tqdm
-from telegram import Update
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 class KuaishouDownload:
     def __init__(self, user_id, download_dir_path):
